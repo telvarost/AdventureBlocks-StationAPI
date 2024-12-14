@@ -17,9 +17,9 @@ Crafting recipes for barrier blocks is two soul sand, stone pressure plate, and 
 * Red Barrier Block = Blocks everything (toggled to gray barrier via redstone)
 * Gray Barrier Block = Blocks nothing (toggled to red barrier via redstone)
 * Orange Barrier Block = Blocks when locked
-    * Use Key Orb to toggle locked/unlocked
-    * [Not Craftable] Use "Open Effect Block" to unlock
-    * [Not Craftable] Use "Close Effect Block" to lock
+    * Use Key Orb to toggle locked/unlocked globally
+    * [Not Craftable] Use "Open Effect Block" to unlock globally
+    * [Not Craftable] Use "Close Effect Block" to lock globally
 * Yellow Barrier Block = Blocks during the day
 * Blue Barrier Block = Blocks at night
 * Light Blue Barrier Block = Blocks during the rain
