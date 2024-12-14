@@ -23,7 +23,7 @@ Crafting recipes for barrier blocks is two soul sand, stone pressure plate, and 
 * Yellow Barrier Block = Blocks during the day
 * Blue Barrier Block = Blocks at night
 * Light Blue Barrier Block = Blocks during the rain
-* Light Gray Barrier Block = Blocks during thunder storms
+* Light Gray Barrier Block = Blocks during thunderstorms
 * Pink Barrier Block = Blocks passive mobs
 * Green Barrier Block = Blocks monster mobs
 * Purple Barrier Block = Blocks non-player mobs
