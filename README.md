@@ -8,7 +8,7 @@ Adventure blocks for b1.7.3! Barriers and Special Effects!
 Crafting recipes for barrier blocks is two soul sand, stone pressure plate, and dye color of desired barrier block
 (Note that Aqua, Jade, and Indigo use special items to craft: diamonds, slime, and unobtainable nether portal)
 
-* Barrier Block = Normal Bedrock Invisible Block
+* Barrier Block = Normal Bedrock Invisible Block (This is the only uncraftable barrier block)
 * Aqua, Jade, and Indigo Barrier Blocks = Blocking is toggled for each with their own hotkey
     * Aqua default blocking
     * Jade default non-blocking
