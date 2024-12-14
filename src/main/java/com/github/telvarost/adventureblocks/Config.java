@@ -28,13 +28,6 @@ public class Config {
         public RenderOrbBlocksConfig RENDER_ORBS_CONFIG = new RenderOrbBlocksConfig();
 
         @ConfigEntry(
-                name = "Disable Living Entities Despawning",
-                description = "Living entities will no longer despawn",
-                multiplayerSynced = true
-        )
-        public Boolean disableLivingEntitiesDespawning = true;
-
-        @ConfigEntry(
                 name = "Enable Barrier Block Recipes",
                 description = "Reload world for changes to take effect",
                 multiplayerSynced = true
