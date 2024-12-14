@@ -30,6 +30,9 @@
     ],
     "gcapi3": [
       "com.github.telvarost.adventureblocks.Config"
+    ],
+    "bhcreative:event_bus": [
+      "com.github.telvarost.adventureblocks.events.init.CreativeListener"
     ]
   },
   "mixins": [

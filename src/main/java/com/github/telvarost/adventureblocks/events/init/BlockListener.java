@@ -17,6 +17,8 @@ import static net.minecraft.block.Block.*;
 
 public class BlockListener {
 
+    public static Block[] blocks;
+
     public static Block ORB;
     public static Block KEY_ORB;
 
@@ -112,6 +114,51 @@ public class BlockListener {
         SURROUND_EFFECT    = new SurroundEffect  (Identifier.of(NAMESPACE, "surround_effect"   ), Material.GLASS).setHardness(0.25F).setSoundGroup(GLASS_SOUND_GROUP).setTranslationKey(NAMESPACE, "surround_effect" );
         PILE_EFFECT        = new PileEffect      (Identifier.of(NAMESPACE, "pile_effect"       ), Material.GLASS).setHardness(0.25F).setSoundGroup(GLASS_SOUND_GROUP).setTranslationKey(NAMESPACE, "pile_effect"     );
         TRAP_EFFECT        = new TrapEffect      (Identifier.of(NAMESPACE, "trap_effect"       ), Material.GLASS).setHardness(0.25F).setSoundGroup(GLASS_SOUND_GROUP).setTranslationKey(NAMESPACE, "trap_effect"     );
+
+        blocks = new Block[]
+        {   ORB
+        ,   KEY_ORB
+        ,   BEDROCK_BARRIER   
+        ,   RED_BARRIER       
+        ,   BLACK_BARRIER     
+        ,   GREEN_BARRIER     
+        ,   BROWN_BARRIER     
+        ,   BLUE_BARRIER      
+        ,   PURPLE_BARRIER    
+        ,   CYAN_BARRIER      
+        ,   LIGHT_GRAY_BARRIER
+        ,   GRAY_BARRIER      
+        ,   PINK_BARRIER      
+        ,   LIME_BARRIER      
+        ,   YELLOW_BARRIER    
+        ,   LIGHT_BLUE_BARRIER
+        ,   MAGENTA_BARRIER   
+        ,   ORANGE_BARRIER    
+        ,   WHITE_BARRIER     
+        ,   AQUA_BARRIER      
+        ,   JADE_BARRIER      
+        ,   INDIGO_BARRIER    
+        ,   OPEN_EFFECT      
+        ,   CLOSE_EFFECT     
+        ,   ARMOR_EFFECT     
+        ,   SWORD_EFFECT     
+        ,   ACCELERATE_EFFECT
+        ,   DECELERATE_EFFECT
+        ,   BOSS_EFFECT      
+        ,   CHEST_EFFECT     
+        ,   DEATH_EFFECT     
+        ,   HEAL_EFFECT      
+        ,   FREEZE_EFFECT    
+        ,   MELT_EFFECT      
+        ,   SIGN_EFFECT      
+        ,   WORLD_EFFECT     
+        ,   OFF_EFFECT       
+        ,   ON_EFFECT        
+        ,   PARTICLE_EFFECT  
+        ,   SURROUND_EFFECT  
+        ,   PILE_EFFECT      
+        ,   TRAP_EFFECT
+        };
     }
 }
 
