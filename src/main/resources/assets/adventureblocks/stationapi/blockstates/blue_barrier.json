@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "adventureblocks:block/blue_barrier_model"
+    }
+  }
+}

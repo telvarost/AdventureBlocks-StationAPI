@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "adventureblocks:block/sword_effect_model"
+    }
+  }
+}

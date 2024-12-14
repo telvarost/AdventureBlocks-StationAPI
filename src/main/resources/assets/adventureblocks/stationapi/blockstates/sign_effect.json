@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "adventureblocks:block/sign_effect_model"
+    }
+  }
+}

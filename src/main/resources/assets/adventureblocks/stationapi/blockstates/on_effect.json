@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "adventureblocks:block/on_effect_model"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "adventureblocks:block/boss_effect_model"
+    }
+  }
+}

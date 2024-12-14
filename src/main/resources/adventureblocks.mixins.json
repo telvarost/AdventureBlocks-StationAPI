@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.telvarost.adventureblocks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChestBlockEntityAccessor",
+    "LivingEntityMixin",
+    "WorldAccessor",
+    "WorldMixin"
+  ],
+  "server": [
+  ],
+  "client": [
+    "InGameHudAccessor",
+    "MinecraftMixin",
+    "SignBlockEntityRendererMixin",
+    "SignEditScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "adventureblocks",
+  "version": "${version}",
+
+  "name": "AdventureBlocks",
+  "description": "Adds many barrier blocks and effect blocks for unique adventures, storytelling, or servers. Special credit to Rocetti/kcilds for some of the tile art.",
+  "authors": [
+    "Telvarost"
+  ],
+  "contact": {
+    "issues": "https://github.com/telvarost/AdventureBlocks-StationAPI/issues",
+    "homepage": "https://github.com/telvarost/AdventureBlocks-StationAPI/",
+    "sources": "https://github.com/telvarost/AdventureBlocks-StationAPI/"
+  },
+
+  "license": "MIT",
+  "icon": "assets/adventureblocks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "com.github.telvarost.adventureblocks.events.init.BlockListener",
+      "com.github.telvarost.adventureblocks.events.init.RecipeListener"
+    ],
+    "stationapi:event_bus_client": [
+      "com.github.telvarost.adventureblocks.events.KeyBindingListener"
+    ],
+    "stationapi:event_bus_server": [
+    ],
+    "gcapi": [
+      "com.github.telvarost.adventureblocks.Config"
+    ]
+  },
+  "mixins": [
+    "adventureblocks.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}

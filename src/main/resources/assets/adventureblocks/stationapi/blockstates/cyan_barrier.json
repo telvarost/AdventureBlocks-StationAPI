@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "adventureblocks:block/cyan_barrier_model"
+    }
+  }
+}

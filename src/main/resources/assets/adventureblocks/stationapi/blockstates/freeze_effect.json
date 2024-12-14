@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "adventureblocks:block/freeze_effect_model"
+    }
+  }
+}
