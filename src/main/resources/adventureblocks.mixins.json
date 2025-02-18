@@ -11,10 +11,11 @@
   "server": [
   ],
   "client": [
-    "InGameHudAccessor",
-    "MinecraftMixin",
-    "SignBlockEntityRendererMixin",
-    "SignEditScreenMixin"
+    "client.ClientNetworkHandlerMixin",
+    "client.InGameHudAccessor",
+    "client.MinecraftMixin",
+    "client.SignBlockEntityRendererMixin",
+    "client.SignEditScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

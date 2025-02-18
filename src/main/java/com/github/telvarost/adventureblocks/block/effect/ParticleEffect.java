@@ -1,7 +1,7 @@
 package com.github.telvarost.adventureblocks.block.effect;
 
 import com.github.telvarost.adventureblocks.Config;
-import com.github.telvarost.adventureblocks.mixin.InGameHudAccessor;
+import com.github.telvarost.adventureblocks.mixin.client.InGameHudAccessor;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.loader.api.FabricLoader;

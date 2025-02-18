@@ -1,14 +1,13 @@
 package com.github.telvarost.adventureblocks.block.effect;
 
 import com.github.telvarost.adventureblocks.Config;
-import com.github.telvarost.adventureblocks.mixin.InGameHudAccessor;
+import com.github.telvarost.adventureblocks.mixin.client.InGameHudAccessor;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.particle.Particle;
-import net.minecraft.client.particle.RainSplashParticle;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.Box;

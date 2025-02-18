@@ -1,4 +1,4 @@
-package com.github.telvarost.adventureblocks.mixin;
+package com.github.telvarost.adventureblocks.mixin.client;
 
 import com.github.telvarost.adventureblocks.events.init.BlockListener;
 import net.fabricmc.api.EnvType;
