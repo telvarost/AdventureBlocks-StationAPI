@@ -1,7 +1,7 @@
 package com.github.telvarost.adventureblocks.block.barrier;
 
 import com.github.telvarost.adventureblocks.Config;
-import com.github.telvarost.adventureblocks.ModHelper;
+import com.github.telvarost.zastavkaapi.ZastavkaHelper;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.material.Material;
@@ -59,8 +59,8 @@ public class LimeBarrier extends TemplateBlock {
         Box var7 = this.getCollisionShape(world, x, y, z);
 
         if (var7 != null && box.intersects(var7)) {
-            if (ModHelper.ModHelperFields.collisionEntity instanceof PlayerEntity) {
-                if (!ModHelper.ModHelperFields.collisionEntity.isSneaking()) {
+            if (ZastavkaHelper.collisionEntity instanceof PlayerEntity) {
+                if (!ZastavkaHelper.collisionEntity.isSneaking()) {
                     boxes.add(var7);
                 }
             }

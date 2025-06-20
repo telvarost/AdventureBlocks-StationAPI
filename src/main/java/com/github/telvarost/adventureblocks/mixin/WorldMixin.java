@@ -60,17 +60,6 @@ public abstract class WorldMixin {
     }
 
     @Inject(
-            method = "getEntityCollisions",
-            at = @At(
-                    value = "INVOKE",
-                    target = "Lnet/minecraft/block/Block;addIntersectingBoundingBox(Lnet/minecraft/world/World;IIILnet/minecraft/util/math/Box;Ljava/util/ArrayList;)V"
-            )
-    )
-    public void getEntityCollisions(Entity entity, Box box, CallbackInfoReturnable<List> cir) {
-        ModHelper.ModHelperFields.collisionEntity = entity;
-    }
-
-    @Inject(
             method = "spawnEntity",
             at = @At("HEAD"),
             cancellable = true

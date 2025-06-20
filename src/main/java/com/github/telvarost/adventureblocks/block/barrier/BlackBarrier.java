@@ -1,13 +1,11 @@
 package com.github.telvarost.adventureblocks.block.barrier;
 
 import com.github.telvarost.adventureblocks.Config;
-import com.github.telvarost.adventureblocks.ModHelper;
+import com.github.telvarost.zastavkaapi.ZastavkaHelper;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.passive.AnimalEntity;
-import net.minecraft.entity.passive.SquidEntity;
 import net.minecraft.util.math.Box;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
@@ -61,7 +59,7 @@ public class BlackBarrier extends TemplateBlock {
         Box var7 = this.getCollisionShape(world, x, y, z);
 
         if (var7 != null && box.intersects(var7)) {
-            if (!(ModHelper.ModHelperFields.collisionEntity instanceof LivingEntity)) {
+            if (!(ZastavkaHelper.collisionEntity instanceof LivingEntity)) {
                 boxes.add(var7);
             }
         }

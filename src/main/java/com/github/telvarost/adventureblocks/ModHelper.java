@@ -1,6 +1,5 @@
 package com.github.telvarost.adventureblocks;
 
-import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import net.modificationstation.stationapi.api.mod.entrypoint.Entrypoint;
 import net.modificationstation.stationapi.api.util.Null;
@@ -14,7 +13,6 @@ public class ModHelper {
 
     public static class ModHelperFields {
         public static ItemStack[] remoteInventory = null;
-        public static Entity collisionEntity = null;
         public static Integer eventCounter = 0;
         public static Boolean isOrangeBarrierActive = true;
         public static Boolean isYellowBarrierActive = true;
