@@ -76,7 +76,7 @@ public class SignEffect extends TemplateSignBlock {
 
     @Override
     public int getDroppedItemId(int blockMeta, Random random) {
-        return this.id;
+        return this.asItem().id;
     }
 
     @Override
