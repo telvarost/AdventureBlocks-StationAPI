@@ -66,7 +66,7 @@ public class RedBarrier extends TemplateBlock {
     public void neighborUpdate(World world, int x, int y, int z, int id) {
         if (!world.isRemote) {
             if (id > 0 && Block.BLOCKS[id].canEmitRedstonePower()) {
-                boolean hasRedstonePower = world.isEmittingRedstonePower(x, y, z);
+                boolean hasRedstonePower = world.isPowered(x, y, z);
                 this.method_1059(world, x, y, z, hasRedstonePower);
             }
         }
